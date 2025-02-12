@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#fff5e6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #030f1b;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 80px;
+}
+
+h2 {
+    color: #333; 
+    text-align: right;
+    font-size: 60px;
+}
+
+h4, h5{
+    font-size:30px
+
+}
+
+h3+p {
+    color: #0c0c0c;
+    text-align: center;
+    font-style: italic;
+}
+
+h4+ p, h5 +p {
+    color: #34495e;
+    margin-left: 60px;  
+         
+}
+h3{
+     text-align: center;
+     font-size: 30px;
+     color: darkorange;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: justify;
+}
+
+
+
+
+li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    position: relative;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+ .top-left-icon {
+    position: absolute;
+    top: 5px;  
+    width: 25vw;
+    max-width: 210px;
+    height: auto;
+    border-radius: 15px
+}
+
+
+@media (max-width: 600px) {
+    .top-left-icon {
+        width: 15vw; 
+        max-width: 80px;
+    }
+}
+h4, h4 + p, h4 + ul,  
+h5, h5 + p, h5 + ul {
+    background-color: rgba(255, 165, 0, 0.2); 
+    padding: 20px;
+    border-radius: 10px; 
+    text-align: center; 
+    width: 60%; 
+    margin: 20px auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h5 + p {
+    background-color: rgba(255, 165, 0, 0.1); 
+    color: #333; 
+    padding: 15px 25px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}button {
+    display: block;
+    margin: 30px auto;
+    background-color: #ff7f50;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;}
+
+   button :hover{
+    background-color: #e76f4b;
+   } 
+   h4 + ul, h5 + ul {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+h4 + ul li, h5 + ul li {
+    position: relative;
+    padding-left: 25px; 
+    font-size: 18px; 
+    line-height: 1.6;
+    margin-bottom: 10px; 
+}
+
+
